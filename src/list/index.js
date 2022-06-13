@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { API, graphqlOperation } from "aws-amplify";
-import { listTodos } from "./operations/queries";
+import { listTodos } from "../operations/queries";
 import { updateTodo } from "../operations/mutations";
+import "./index.css";
 
 const List = () => {
   const [todos, setTodos] = useState([]);

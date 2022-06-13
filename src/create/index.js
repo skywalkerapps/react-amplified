@@ -1,6 +1,7 @@
 import React from "react";
 import { API, graphqlOperation } from "aws-amplify";
 import { createTodo } from "../operations/mutations";
+import "./index.css";
 
 const CreateTodo = () => {
   const [item, setItem] = React.useState("");
@@ -16,7 +17,7 @@ const CreateTodo = () => {
 
   return (
     <>
-      <h1>Add To Do Item</h1>
+      <h1 className="header">Add To Do Item</h1>
       <input onChange={(e) => setItem(e.target.value)}></input>
       <button onClick={() => addItemCall()}>ADD</button>
     </>
