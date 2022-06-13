@@ -1,0 +1,24 @@
+.todo {
+  margin-bottom: 15px;
+}
+
+.todoItem {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: "bold";
+}
+
+.todoItemCompleted {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: "bold";
+  text-decoration: line-through;
+}
+
+button {
+  background-color: "black";
+  color: "white";
+  outline: "none";
+  font-size: 18px;
+  padding: "12px 0px";
+}
